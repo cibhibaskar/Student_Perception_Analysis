@@ -1,0 +1,55 @@
+/* Basic Resets and Body Style */
+body, html {
+  height: 100%;
+  font-family: 'Poppins-Regular', sans-serif;
+}
+
+/* Container Styles */
+.container-contact100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #ffffb5; /* Solid color background */
+  background-image: 
+      linear-gradient(315deg, rgba(255,255,181,0.5) 0%, rgba(36,123,160,0.5) 74%); /* Gradient overlay */
+  background-blend-mode: multiply; /* Blends the gradient with the solid color */
+  border-radius: 10px;
+}
+
+.wrap-contact200 {
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white for inner container */
+  width: 100%;
+  border-radius: 20px; /* More pronounced rounded corners */
+}
+
+/* Title Styling */
+.contact100-form-title {
+  display: block;
+  font-family: 'Poppins-Bold';
+  font-size: 25px;
+  color: #333333;
+  line-height: 1.3;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* iframe Styling - if special styles are applied */
+iframe {
+  border: none !important;
+}
+
+/* Font Face Definitions - Include only if these fonts are actually used in your HTML */
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
